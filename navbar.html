@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Navbars</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+<!-- creating a navbar menu and making a responsive page that generate a hamburger -->
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hamburger">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">MartTech</a>
+			</div>
+			<div class="collapse navbar-collapse" id="hamburger">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contacts</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Downloads</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"> </span>Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"> </span> Login</a></li>
+				</ul>
+			</div>		
+		</div>
+	</nav>
+	<!-- default navigation -->
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
